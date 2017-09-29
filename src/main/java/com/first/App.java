@@ -9,6 +9,7 @@ public class App {
         long l = System.currentTimeMillis();
         if (l < 0)
             System.gc();
+        long l2 = 0;
         return null;
     }
 }
