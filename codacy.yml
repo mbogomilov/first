@@ -1,0 +1,3 @@
+engines:
+  findbugs:
+  enabled: true
