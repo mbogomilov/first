@@ -5,11 +5,14 @@ package com.first;
  *
  */
 public class App {
+    private String s = "s"; // unused
+    private static String s2 = "s2"; // unused
+
     public String f(String[] args) {
         long l = System.currentTimeMillis();
         if (l < 0)
             System.gc();
-        long l2 = 0;
+        long l2 = 0; // unused
         return null;
     }
 }
