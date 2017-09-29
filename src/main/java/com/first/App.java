@@ -6,7 +6,6 @@ package com.first;
  */
 public class App {
     private String s = "s"; // unused
-    private static String s2 = "s2"; // unused
 
     public String f(String[] args) {
         long l = System.currentTimeMillis();
