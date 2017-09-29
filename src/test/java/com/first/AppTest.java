@@ -1,6 +1,6 @@
 package com.first;
 
-import static org.junit.Assert.assertTrue;
+import static org.junit.Assert.assertNull;
 
 import org.junit.Test;
 
@@ -11,6 +11,6 @@ public class AppTest {
 
     @Test
     public void testApp() {
-        assertTrue(true);
+        assertNull(new App().f(null));
     }
 }
